@@ -1,0 +1,213 @@
+section {
+
+
+    .container {
+
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+        gap: 3rem;
+
+
+        .first {
+            background: #F4FAED;
+            height: 73rem;
+            width: 73rem;
+            padding-bottom: 20rem;
+
+
+            .logo {
+                margin: 3rem 5rem;
+
+            }
+
+            .phone {
+                margin: 7rem 0 0 10rem;
+            }
+
+
+            .slider-container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+
+            .slider-images {
+                position: absolute;
+                width: 300%;
+                height: 100%;
+                display: flex;
+                transition: transform 0.3s ease-in-out;
+            }
+
+            .slider-images img {
+                width: 100%;
+                height: 100%;
+
+            }
+
+            .slider-nav {
+                position: absolute;
+                left: 26.8%;
+                transform: translateX(-50%);
+
+            }
+
+            .slider-nav button {
+                margin: 0 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+                background: transparent;
+            }
+
+
+        }
+
+        .second {
+            margin-left: 5rem;
+
+            margin-top: 10rem;
+
+            h1 {
+                font-weight: 700;
+                font-size: 4.4rem;
+                text-transform: capitalize;
+
+            }
+
+            h6 {
+                font-weight: 500;
+                font-size: 1.6rem;
+                color: #A2A0A8;
+                margin: 1rem 0 0 11rem;
+            }
+
+            form {
+                overflow: hidden;
+                padding-bottom: 2rem;
+
+
+                .form__group {
+                    position: relative;
+                    margin-top: 2rem;
+                   padding: 1rem;
+
+                    input {
+                        width: 40.4rem;
+                        height: 5.6rem;
+                        border-radius: 2rem;
+                        padding-left: 9rem;
+                        font-size: 1.6rem;
+                        text-transform: capitalize;
+                        background: #F9F9FA;
+                        border: transparent;
+                        transition: all 0.3s ease;
+
+
+                    }
+
+
+                    .icon {
+                        position: absolute;
+                        top: 50%;
+                        font-size: 1.8rem;
+                        left: 5%;
+                        transform: translateY(-50%);
+                    }
+
+
+                }
+            }
+
+            h5 {
+                margin-top: 4rem;
+
+            }
+
+            .center {
+
+
+                h5 {
+                    color: #2B1A64;
+                    font-size: 1.6rem;
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    margin-top: -0.5rem;
+                    margin: 1.5rem 0 1.5rem 11rem;
+                    
+                }
+
+                .login {
+                    width: 40.4rem;
+                    height: 5.2rem;
+                    border-radius: 0.8rem;
+                    border: transparent;
+                    background: #2B1A64;
+                    // margin: 1rem 0 2rem -16.9rem;
+                    color: #FFFFFF;
+                    font-size: 1.8rem;
+                    font-weight: 700;
+                }
+
+                .sign-up {
+                    font-weight: 400;
+                    font-size: 1.4rem;
+                    text-transform: capitalize;
+                    margin-bottom: 4rem;
+                    margin: 2rem 0 3rem 0;
+                   
+
+                    a {
+                        text-decoration: none;
+                    }
+
+                }
+
+
+                .line {
+                    // margin-bottom: 3rem;
+                   margin:0 0 3rem 2rem;
+                    span {
+                        font-weight: 400;
+                        font-size: 1.6rem;
+                    }
+                }
+
+
+                .google {
+                    width: 40.4rem;
+                    height: 5.2rem;
+                    background: transparent;
+                    border: 1px solid #E8E8E8;
+                    border-radius: 1.6rem;
+                    // margin-left: -16.9rem;
+
+                    span {
+                        font-weight: 700;
+                        font-style: 1.6rem;
+                        line-height: 2.5rem;
+                        text-transform: capitalize;
+
+
+                    }
+
+                    img {
+                        width: 2rem;
+                        // margin-bottom: -0.5rem;
+
+                    }
+                }
+
+
+            }
+
+        }
+
+    }
+
+
+}
